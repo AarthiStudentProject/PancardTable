@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0px 10px;
+}
+.top_block{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+.p1,.p2{
+    text-align: center;
+}
+.b1{
+    color: blue;
+    font-style: italic;
+
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightgoldenrodyellow;
+    padding: 1px 0px 1px 5px;
+}
+table{
+    width: 100%;
+}
+.b2{
+    color: green;
+}
+.ltext{
+    padding-right: 380px;
+}
+tr td:first-child {
+    text-align: center;
+}
+.width_5{
+    width:5%;
+}
+.width_10{
+    width:10%;
+}
+.width_45{
+    width:45%;
+}
+.secondary_table{
+    width: 200px;
+}
+.secondary_table, .secondary_table tr, .secondary_table td{
+    border: none;
+}
+.secondary_table tr td{
+    text-align: left;
+    width: 25px;
+}
+.secondary_table tr td input{
+    margin-right: 15px;
+}
+input[type="radio"] {
+    margin-right: 3px;
+}
