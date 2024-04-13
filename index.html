@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top_block">
+        <p class="p1">Request for New Pan Card or/ And changes or correction in PAN Data </p>
+        <p class="p2">Field marked with(astercik)are mandatory to avoid mistake(s) please refer <span class="b1">guidlines</span> and <span class="b1">instructions</span></p>
+    </div>
+    <br>
+    <table>
+        <!--1st row-->
+        <tr>
+            <td></td>
+            <td colspan="2">*Whether citizen of India
+                <input name="citizen" type="radio">Yes
+                <input name="citizen" type="radio">No
+            </td>
+        </tr>
+        <!--2nd row-->
+        <tr>
+            <td></td>
+            <td colspan="2">*Permanent Account Number(PAN)
+                <input type="text" placeholder="PAN Number">
+            </td>
+        </tr>
+        <!--3rd row-->
+        <tr>
+            <td><input type="checkbox"></td>
+            <td colspan="2">*1.Name</td>
+        </tr>
+        <!-- 4th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">*Title 
+                <input name="title" type="radio">Shri/Mr
+                <input name="title" type="radio">Shri/Mrs
+                <input name="title" type="radio">Kumari/Ms
+            </td>
+        </tr>
+        <!-- 5th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <table class="secondary_table">
+                    <tr>
+                        <td>LastName/Surname </td>
+                        <td>FirstName</td>
+                        <td>MiddleName</td>
+                    <tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    <tr>
+                    <tr><tr>
+                </table>
+            </td>
+        </tr>
+        <!--6th row-->
+        <tr>
+            <td></td>
+            <td colspan="2">*Name as you would like it printed on the card<span class="b2">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mrs,M/s,Alias etc, are not allowed)</span></td>
+        </tr>
+        <!-- 7th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <input type="text" class="ltext">
+            </td>
+        </tr>
+        <!-- 8th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">*Details of Parents<span class="b2">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mrs,M/s,Alias etc, are not allowed)</span></td>
+            
+        </tr>
+        <!-- 9th row -->
+        <tr>
+            <td class="width_5"></td>
+            <td class="width_45">*Whether mother is single parent and you wish to apply for pan by furnshing the name of your mother only</td>
+            <td class="width_45">
+                <input name="parent" type="radio">Yes
+                <input name="parent" type="radio">No
+            </td>
+        </tr>
+        <!-- 10th row -->
+        <tr>
+        <td></td>
+        <td colspan="2">Father's Name<span class="b2">(Mandatory field Even married women should given father's name only)</span></td>
+        </tr>
+        <!-- 11th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <table class="secondary_table">
+                    <tr>
+                        <td>LastName/Surname </td>
+                        <td>FirstName</td>
+                        <td>MiddleName</td>
+                    <tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    <tr>
+                    <tr><tr>
+                </table>
+            </td>
+        </tr>
+        <!-- 12th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">Mother's Name<span class="b2">(This field is optional)</span></td>
+        </tr>
+        <!-- 13th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <table class="secondary_table">
+                    <tr>
+                        <td>LastName/Surname </td>
+                        <td>FirstName</td>
+                        <td>MiddleName</td>
+                    <tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    <tr>
+                    <tr><tr>
+                </table>
+            </td>
+        </tr>
+        <!-- 14th row -->
+        <tr>
+            <td></td>
+            <td>*Select Parent name which is to be printed on the card<span class="b2">(In case no option provided then PAN Card will be issued with father's name)</span>
+            </td>
+            <td>
+                <input name="parent_pan" type="radio">Father Name
+                <input name="parent_pan" type="radio">Mother Name
+            </td>
+        </tr>
+        <!-- 15th row -->
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Date of Birth/Incorporation/Agreement Partnership or Trust<br>
+                Deed/Formation of Body of Indivisuals/Association of persons
+            </td>
+            <td>
+                <table class="secondary_table">
+                    <tr>
+                        <td><label for="dd">DD</label></td>
+                        <td><label for="mm">MM</label></td>
+                        <td><label for="yy">YYYY</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>01</option>
+                                <option>01</option>
+                                <option>01</option>
+                                <option>01</option>
+                                <option>01</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>01</option>
+                                <option>01</option>
+                                <option>01</option>
+                                <option>01</option>
+                                <option>01</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input placeholder="YYYY" type="text">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- 16th row -->
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>*6.Gender</td>
+            <td>
+                <input name="gender" type="radio" value="male">Male
+                <input name="gender" type="radio" value="female">Female
+                <input name="gender" type="radio" value="transgender">Transgender
+            </td>
+        </tr>
+        <!-- 17th row -->
+        <tr>
+            <td><input type="checkbox"></td>
+            <td colspan="2">*7.Photo Mismatch</td>
+        </tr>
+        <!-- 18th row -->
+        <tr>
+            <td><input type="checkbox"></td>
+            <td colspan="2">*8.Signature Mismatch</td>
+        </tr>
+        <!-- 19th row -->
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>*9.Address for Communication</td>
+            <td>
+                <input name="address" type="radio">Residental
+                <input name="address" type="radio">Office
+            </td>
+        </tr>
+        <!-- 20th row -->
+        <tr>
+            <td></td>
+            <td>Office Name(To be filled in case of only office address) </td>
+            <td><input type="text"> </td>
+        </tr>
+        <!-- 21st row -->
+        <tr>
+            <td></td>
+            <td>Flat Door/Block No </td>
+            <td><input type="text"></td>
+        </tr>
+        <!-- 22nd row -->
+        <tr>
+            <td></td>
+            <td colspan="2">Name of the premises/Building Village <input type="text"></td>
+        </tr>
+        <!-- 23rd row -->
+        <tr>
+            <td></td>
+            <td colspan="2">Road/street/Lane/Post office <input type="text"></td>
+        </tr>
+        <!-- 24th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">Area/Locality/Taluka/Sub-Division <input type="text"></td>
+        </tr>
+        <!-- 25th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">Town/City/District <input type="text"></td>
+        </tr>
+        <!-- 26th row -->
+        <tr>
+            <td></td>
+            <td>State/Union Territory </td>
+            <td>
+                <select>
+                    <option>Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+            </td>
+        </tr>
+        <!-- 27th row -->
+        <tr>
+            <td></td>
+            <td colspan="2">PIN(Including Pin is Mandatory) <input type="text"></td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
